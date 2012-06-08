@@ -1,0 +1,19 @@
+SAMSettings.txt
+This file sets preferences in SAM at launch.
+$SAM_LICENSE 14000
+You may disable specific tabs by setting the appropriate value to 0.
+$ENABLE_SNAPSHOT 1
+$ENABLE_AUDIO 1
+$ENABLE_TIMELAPSE 1
+$ENABLE_MANAGER 1
+$ENABLE_FRAMEEDIT 1
+You may also specify a default tab:
+Snapshot = 1, Audio = 2, Timelapse = 3,Timeline Manager = 4
+$DEFAULT_TAB 1
+You may also specify the millisecond wait for movie refresh during playback. 
+You may want to increase this for older computers
+$MUTE_WHILE_RECORD 0
+$COLOR_TABS 0
+$APPEND_MODE 1
+
+IMPORTANT: You must restart SAM to apply changes.
